@@ -1,4 +1,4 @@
-#PRACTICAL TEST
+# PRACTICAL TEST
 
 ## Project Structure
 
@@ -19,7 +19,7 @@ The transaction history task is accessible on the `/transactions` route. It disp
 
 ---
 
-#THEORETICAL TEST
+# THEORETICAL TEST
 
 #SECTION A: Financial Application Development: Key Considerations
 
