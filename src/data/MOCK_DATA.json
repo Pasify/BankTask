@@ -1,0 +1,122 @@
+[
+  {
+    "transaction_id": 1,
+    "transaction_date": "2024-07-03",
+    "amount": 9219.46,
+    "transaction_type": "transfer",
+    "category": "transportation",
+    "status": "pending"
+  },
+  {
+    "transaction_id": 2,
+    "transaction_date": "2024-04-04",
+    "amount": 3315.58,
+    "transaction_type": "withdrawal",
+    "category": "food",
+    "status": "failed"
+  },
+  {
+    "transaction_id": 3,
+    "transaction_date": "2024-04-28",
+    "amount": 8608.66,
+    "transaction_type": "transfer",
+    "category": "entertainment",
+    "status": "pending"
+  },
+  {
+    "transaction_id": 4,
+    "transaction_date": "2024-01-24",
+    "amount": 4072.3,
+    "transaction_type": "transfer",
+    "category": "transportation",
+    "status": "pending"
+  },
+  {
+    "transaction_id": 5,
+    "transaction_date": "2024-10-30",
+    "amount": 4900.16,
+    "transaction_type": "withdrawal",
+    "category": "utilities",
+    "status": "failed"
+  },
+  {
+    "transaction_id": 6,
+    "transaction_date": "2024-06-22",
+    "amount": 5461.73,
+    "transaction_type": "deposit",
+    "category": "food",
+    "status": "pending"
+  },
+  {
+    "transaction_id": 7,
+    "transaction_date": "2024-08-03",
+    "amount": 1499.75,
+    "transaction_type": "deposit",
+    "category": "food",
+    "status": "pending"
+  },
+  {
+    "transaction_id": 8,
+    "transaction_date": "2024-03-12",
+    "amount": 7531.54,
+    "transaction_type": "withdrawal",
+    "category": "entertainment",
+    "status": "completed"
+  },
+  {
+    "transaction_id": 9,
+    "transaction_date": "2024-07-06",
+    "amount": 6388.2,
+    "transaction_type": "deposit",
+    "category": "food",
+    "status": "completed"
+  },
+  {
+    "transaction_id": 10,
+    "transaction_date": "2024-04-02",
+    "amount": 5996.31,
+    "transaction_type": "deposit",
+    "category": "entertainment",
+    "status": "pending"
+  },
+  {
+    "transaction_id": 11,
+    "transaction_date": "2024-01-12",
+    "amount": 2235.94,
+    "transaction_type": "transfer",
+    "category": "food",
+    "status": "pending"
+  },
+  {
+    "transaction_id": 12,
+    "transaction_date": "2024-11-30",
+    "amount": 9480.34,
+    "transaction_type": "withdrawal",
+    "category": "transportation",
+    "status": "completed"
+  },
+  {
+    "transaction_id": 13,
+    "transaction_date": "2024-05-26",
+    "amount": 4843.53,
+    "transaction_type": "transfer",
+    "category": "utilities",
+    "status": "completed"
+  },
+  {
+    "transaction_id": 14,
+    "transaction_date": "2024-10-15",
+    "amount": 2157.99,
+    "transaction_type": "withdrawal",
+    "category": "entertainment",
+    "status": "pending"
+  },
+  {
+    "transaction_id": 15,
+    "transaction_date": "2024-11-04",
+    "amount": 6045.14,
+    "transaction_type": "withdrawal",
+    "category": "transportation",
+    "status": "pending"
+  }
+]
