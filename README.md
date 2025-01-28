@@ -1,4 +1,27 @@
-# Financial Application Development: Key Considerations
+#PRACTICAL TEST
+
+## Project Structure
+
+### Online Banking Login Form
+
+The login form task is accessible on the main route (`/`). It includes:
+
+- Email and password fields
+- Form validation (e.g., password length, valid email format)
+- Error handling with user-friendly messages
+
+### Transaction History
+
+The transaction history task is accessible on the `/transactions` route. It displays:
+
+- A secure component showing a user's transaction history using dummy JSON data
+- Proper accessibility and formatting for a seamless user experience
+
+---
+
+#THEORETICAL TEST
+
+#SECTION A: Financial Application Development: Key Considerations
 
 working on a financial application, involves stepping into a world where security, compliance, and reliability are non-negotiable. Let me break down the key things are to be kept in mind to build a robust and trustworthy system
 
@@ -93,4 +116,30 @@ Compliance isn’t just about avoiding fines, it is about building trust. Here�
 
 ## **Final Thoughts**
 
-Building a financial application is no small feat. It is not just about writing code, it is about creating a system that users can trust with their money and personal information. By focusing on security, compliance, and reliability, you are not just building an app; you’re building trust and new experience for the end user.
+Building a financial application is no small feat. It is not just about writing code, it is about creating a system that users can trust with their money and personal information. By focusing on security, compliance, and reliability, you are not just building an app; you’re building trust and new experience for the end user
+
+# SECTION B: Frontend Development
+
+## 1. Ensuring a User-Friendly and Secure UI/UX for a Banking Web Application
+
+To make the application user-friendly, I’d focus on simplicity and accessibility. Clear navigation, readable fonts, intuitive layouts, and consistent design help users find what they need easily. I’d also prioritize mobile responsiveness, as many users rely on their phones for banking.
+
+For security, I’d implement multi-factor authentication (MFA), proper session management (like auto-logout for inactivity), and secure password handling. Additionally, features like user-friendly error messages (e.g., “Your password must contain a number” instead of technical jargon) ensure a smooth experience while maintaining safety.
+
+## 2. Role of Form Validation and Data Masking in Financial Applications
+
+Form validation ensures that data entered by users is correct and secure. For example, validating account numbers, email addresses, or limiting password fields to secure formats prevents errors or misuse.
+
+Data masking protects sensitive information, like showing “\*\*\*\*” instead of full credit card numbers. This adds a layer of privacy, especially when users are accessing the app in public or shared spaces. Together, these practices safeguard data while preventing frustration from mistakes or insecure inputs.
+
+## 3. Handling Real-Time Data Updates in a React Application
+
+To handle real-time updates like account balance changes, I’d use tools like WebSockets or libraries such as Socket.IO to establish a live connection with the server. This ensures instant updates without refreshing the page.
+
+For React specifically, I’d manage these updates using state management tools like Redux or the Context API, ensuring changes are reflected across the app efficiently. User feedback, like subtle animations or loading spinners, can also improve the real-time experience by showing progress or confirmation.
+
+## 4. What Are Progressive Web Apps (PWAs) and Their Benefits to Financial Institutions?
+
+PWAs are web applications that behave like mobile apps—they can work offline, load quickly, and be added to a home screen without needing an app store.
+
+For financial institutions, PWAs offer a cost-effective way to provide a mobile-friendly experience to users without requiring them to download an app. They’re especially beneficial in areas with poor connectivity since they can cache data and work offline. This ensures users can access critical features like viewing balances or transactions even without an internet connection.
